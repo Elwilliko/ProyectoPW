@@ -8,6 +8,22 @@ public class Bodega {
 	
 	@Id
 	private int codigo;
+	
+	private Producto producto;
+
+	/**
+	 * @return the producto
+	 */
+	public Producto getProducto() {
+		return producto;
+	}
+
+	/**
+	 * @param producto the producto to set
+	 */
+	public void setProducto(Producto producto) {
+		this.producto = producto;
+	}
 
 	/**
 	 * @return the codigo
