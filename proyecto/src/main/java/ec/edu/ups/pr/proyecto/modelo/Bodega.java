@@ -1,5 +1,6 @@
 package ec.edu.ups.pr.proyecto.modelo;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -9,6 +10,7 @@ public class Bodega {
 	@Id
 	private int codigo;
 	
+	@Column
 	private Producto producto;
 
 	/**
